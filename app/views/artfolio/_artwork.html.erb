@@ -1,0 +1,9 @@
+<%= paginate @artworks, :remote => true %>
+<P></P>
+<% @artworks.each do |art| %>
+  <img src=<%= art.url %> >
+  <% if art.caption %>
+    <p><%= art.caption %></p>
+  <% end %>
+<% end %>
+

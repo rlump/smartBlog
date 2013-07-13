@@ -1,0 +1,2 @@
+module ArtfolioHelper
+end

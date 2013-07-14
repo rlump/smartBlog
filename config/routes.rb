@@ -10,6 +10,12 @@ SmartBlog::Application.routes.draw do
   get "resume/edu"
   get "/resume/relevant"
 
+  get "blogposts/index"
+
+  get "about/show"
+
+  get "contact/show"
+
   # get "projects/index"
 
   # The priority is based upon order of creation:

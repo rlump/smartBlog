@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130713020313) do
+ActiveRecord::Schema.define(:version => 20130727221711) do
 
   create_table "art_folios", :force => true do |t|
     t.string   "url"
@@ -19,6 +19,17 @@ ActiveRecord::Schema.define(:version => 20130713020313) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "genre"
+  end
+
+  create_table "blogposts", :force => true do |t|
+    t.string   "title"
+    t.string   "image"
+    t.string   "category"
+    t.text     "content"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.text     "image_text"
+    t.string   "date"
   end
 
 end

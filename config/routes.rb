@@ -1,7 +1,13 @@
 SmartBlog::Application.routes.draw do
 
-  match "artfolio/index/:genre" => 'artfolio#index'
+  get "artfolio/index/:genre" => 'artfolio#index'
   get "artfolio/index"
+
+
+  get "blogposts/display/:genre" => 'blogposts#display'
+  get "blogposts/display" => 'blogposts#display'
+  resources :blogposts
+
 
   get "resume/show"
   get "resume/about"
@@ -10,11 +16,13 @@ SmartBlog::Application.routes.draw do
   get "resume/edu"
   get "/resume/relevant"
 
-  get "blogposts/index"
+
 
   get "about/show"
 
   get "contact/show"
+
+  get "bigdata/index"
 
   # get "projects/index"
 

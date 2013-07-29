@@ -1,0 +1,31 @@
+<%= form_for(@post) do |post_form| %>
+
+  <div class="field">
+    <%= post_form.label :title %><br />
+    <%= post_form.text_field :title %>
+  </div>
+  <div class="field">
+    <%= post_form.label :date %><br />
+    <%= post_form.text_field :date %>
+  </div>
+  <div class="field">
+    <%= post_form.label :image %><br />
+    <%= post_form.text_field :image %>
+  </div>
+  <div class="field">
+    <%= post_form.label :category %><br />
+    <%= post_form.text_field :category %>
+  </div>
+  <div class="field">
+    <%= post_form.label :image_text %><br />
+    <%= post_form.text_area :image_text %>
+  </div>
+  <div class="field">
+    <%= post_form.label :content %><br />
+    <%= post_form.text_area :content %>
+  </div>
+  <div class="actions">
+    <%= post_form.submit %>
+  </div>
+
+<% end %>

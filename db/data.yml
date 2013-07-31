@@ -114,9 +114,9 @@ blogposts:
     - <p>Go if you can.  <a href="http://www.artic.edu/exhibitions/impressionism-fashion-and-modernity"
       style="text-decoration:underline">Art Institute.</a></p>
     - '2013-07-23 17:42:02.901407'
-    - '2013-07-29 15:58:11.472891'
+    - '2013-07-31 18:42:52.594025'
     - <p>This is a great special exhibit on going at the Art Institute though Sept
-      29</p><p> An amazing collection of both well preserved apparel from the late
+      29.</p><p> An amazing collection of both well preserved apparel from the late
       19th century and paintings of the same articles by the great impressionist painters
       of the day.</p> <p> Over 75 major figure paintings by Caillebotte, Degas, Manet,
       Monet, Renoir, and Seurat.</p>
@@ -130,12 +130,12 @@ blogposts:
       exchange connectivity middleware that powered a realtime trading systems for
       the options trading industry. I look forward to working with it !!</p>
     - '2013-07-23 20:04:21.240596'
-    - '2013-07-29 16:02:46.492652'
-    - <p> Node.js is a platform built JavaScript runtime for easily building fast,
+    - '2013-07-31 18:41:13.749697'
+    - <p> Node.js is a platform built on JavaScript runtime for easily building fast,
       scalable web based applications. Node.js uses an event-driven, non-blocking
       I/O model. It provides concurrency through a callback mechanism that is managed
       as a single threaded process and so it avoids all the messiness and inefficiencies
-      of a multiple threaded program.</p>
+      of a multi-threaded program.</p>
     - July 25, 2013
   - - 4
     - Visiting All of the Louvre, Paris
@@ -152,3 +152,19 @@ blogposts:
     - <p> I finally managed to to see the entire Louvre. It took me over three days,
       but I did it !! </p>
     - July 23, 2013
+  - - 5
+    - FoundationDB
+    - /assets/fd.jpg
+    - tech
+    - "<p></p>\r\n<p>Another interesting feature of foundationDB is the concept of
+      Layers which are built on foundationDB's core data model. The core model is
+      an ordered key-value pair. It can be efficiently adapted and remapped to a broad
+      array of rich data models. The data models, or Layers, can be graphs, documents,
+      tables or any combination depending on need. The data model is not tied to storage
+      as in other databases. Wow Again !! </p>"
+    - '2013-07-31 16:41:14.927210'
+    - '2013-07-31 18:46:13.917465'
+    - "<p><a href = \"http://foundationdb.com\" style=\"text-decoration:underline\">FoundationDB</a>
+      is a new NoSQL that promises ACID transactions across a distributed database.
+      </p> \r\n<p> Speed and scalability, but now with consistency. Wow !! </p>  "
+    - July 21, 2013

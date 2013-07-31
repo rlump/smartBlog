@@ -6,7 +6,7 @@ SmartBlog::Application.routes.draw do
 
   get "blogposts/display/:genre" => 'blogposts#display'
   get "blogposts/display" => 'blogposts#display'
-  resources :blogposts # - uncomment this to allow mod of posts
+  #resources :blogposts # - uncomment this to allow mod of posts
 
 
   get "resume/show"
